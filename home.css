@@ -3,7 +3,7 @@ body{
     margin: 0px;
     font-family: 'Jost', sans-serif;
 }
-.navbar{
+.home{
     background: url(background/bomberman.png);
     background-position: center;
     background-size: cover;
@@ -49,7 +49,6 @@ nav::after{
     background: black;
     display: none;
     top: 65px;
-
 }
 .dropdown li{
     display: block;
@@ -85,14 +84,14 @@ nav::after{
     margin: 0;
     color:white;
 }
+.banner-text i{
+    font-size: 45px;
+    padding-top: 27%;
+    color: white;
+}
 .bomberman-white img{
     width: 25%;
     padding: 20px 0px 15px 65%;
-}
-.banner-text i{
-    font-size: 45px;
-    padding-top: 35%;
-    color: white;
 }
 .bomberman-white p{
     text-align: justify;
@@ -132,14 +131,67 @@ nav::after{
     padding-bottom: 55%;
 }
 .video iframe{
-top: 0;
-left: 25%;
-width: 50%;
-height: 50%;
-position: absolute;
+    top: 0;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+}
+.series{
+    text-align: center;
+    font-family: 'Koulen', cursive;
+    font-size: 50px;
+    margin: 10px;
+}
+.container{
+    padding: 40px 1em;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    background: black;
+}
+.card{
+    flex: 2;
+    padding: 20px 0;
+    text-align: center;
+    background: grey;
+}
+.card2{
+    flex: 2;
+    padding: 20px 0;
+    text-align: center;
+    background:orange;
+}
+.card2 h2, .card h2{
+    margin-top: 20px;
+    text-align: center;
+}
+.card2 p, .card p{
+    margin: 0 20px;
+    text-align: justify;
+    font-size: 18px;
+}
+.card2 a, .card a{
+    background-color: #000;
+    color: white;
+    padding:10px 10px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+.card a:hover{
+    background-color: white;
+    color: #000;
+}
+.card2 a:hover{
+    background-color: white;
+    color: #000;
 }
 .third-section{
-    padding: 10px 0 100px;
+    padding: 10px 0 90px;
 }
 .third-section h1{
     padding-left: 100px;
@@ -163,77 +215,6 @@ position: absolute;
 .third-section i{
     margin-top: 15px;
     margin-left: -25px;
-}
-.series{
-    text-align: center;
-    font-family: 'Koulen', cursive;
-    font-size: 50px;
-    margin-bottom: 0;
-}
-.container{
-    padding: 40px 1em;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    background: black;
-}
-.card{
-    flex: 2;
-    padding: 20px 0;
-    text-align: center;
-    background: grey;
-}
-.card2{
-    flex: 2;
-    padding: 20px 0;
-    text-align: center;
-    background:orange;
-}
-.card h2{
-    margin-top: 20px;
-    text-align: center;
-}
-.card2 h2{
-    margin-top: 20px;
-    text-align: center;
-}
-.card p{
-    margin: 0 20px;
-    text-align: left;
-    font-size: 18px;
-}
-.card2 p{
-    margin: 0 20px;
-    text-align: left;
-    font-size: 18px;
-}
-.card a{
-    background-color: #000;
-    color: white;
-    padding:10px 10px;
-    display: block;
-    text-align: center;
-    margin: 20px 50px;
-    text-decoration: none;
-}
-.card2 a{
-    background-color: #000;
-    color: white;
-    padding:10px 10px;
-    display: block;
-    text-align: center;
-    margin: 20px 50px;
-    text-decoration: none;
-}
-.card a:hover{
-    background-color: white;
-    color: #000;
-}
-.card2 a:hover{
-    background-color: white;
-    color: #000;
 }
 .footer{
     padding: 40px 0;
@@ -277,7 +258,7 @@ position: absolute;
     display: inline-block;
     padding: 0 15px;
 }
-.footer a:hover{
+.footer ul a:hover{
     color: orange;
 }
 .footer .copyright{
@@ -286,3 +267,78 @@ position: absolute;
     text-align: center;
     opacity: 0.9;
 }
+
+/*-----------------GUIDE.CSS-----------------*/
+
+.guide{
+    background: url(background/black.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.banner-text2{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.banner-text2 h1{
+    font-family: sans-serif;
+    margin: 0;
+    font-size: 40px;
+    color: orange;
+    font-family: 'Koulen', cursive;
+}
+.banner-text2 p{
+    font-size: 22px;
+    margin: 0;
+    color:white;
+}
+.banner-text2 i{
+    font-size: 45px;
+    padding-top: 27%;
+    color: white;
+}
+.mechanics a{
+    text-decoration: none;
+    color: orange;
+}
+.mechanics dl{
+    margin: 20px;
+}
+.mechanics dt{  
+    font-family: 'Jost', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 20px;
+    font-weight: bolder ;
+}
+.mechanics dd{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding: 0 100px;
+    font-weight: 500;
+    text-align: justify;
+}
+.mechanics a{
+    font-size: 21px;
+    font-family: 'Jost', sans-serif;
+    color: orange;
+    font-weight: bold;
+    text-decoration: none;
+} 
+.viewmore i{
+    padding-left: 10px;
+}
+.viewmore a{
+    background-color: #000;
+    float: right;
+    margin: 0 100px;
+    padding: 7px 10px;
+    font-size: 18px;
+}
+    
