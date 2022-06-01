@@ -89,7 +89,7 @@ nav::after{
     text-align: center;
     font-family: 'Koulen', cursive;
     font-size: 50px;
-    margin: 10px;
+    margin: 10px
 }
 .description{
     text-align: center;
@@ -98,10 +98,7 @@ nav::after{
     margin: 10px;
 }
 .container{
-    padding: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 20px;
+    padding: 8px 15px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -133,13 +130,13 @@ nav::after{
 .card p, .card2 p{
     margin: 0 20px;
     text-align: justify;
-    text-justify: inter-word;
-    font-size: 15px;
+    text-justify: none;
+    font-size: 18px;
 }
 .card a, .card2 a{
     background-color: #000;
     color: white;
-    padding:10px 10px;
+    padding: 10px 10px;
     display: block;
     text-align: center;
     margin: 20px 10px;

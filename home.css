@@ -61,7 +61,7 @@ nav::after{
     color: #ffff;
     font-size: 30px;
     font-family: 'Trade Winds', cursive;
-    padding: 35px 0 0 100px;
+    padding: 35px 100px;
     width: 20%;
     float: left;
 }
@@ -90,8 +90,7 @@ nav::after{
     color: white;
 }
 .bomberman-white img{
-    width: 25%;
-    padding: 20px 0px 15px 65%;
+    padding: 20px 0 15px 65%;
 }
 .bomberman-white p{
     text-align: justify;
@@ -171,12 +170,13 @@ nav::after{
 .card2 p, .card p{
     margin: 0 20px;
     text-align: justify;
+    text-justify: none;
     font-size: 18px;
 }
 .card2 a, .card a{
     background-color: #000;
     color: white;
-    padding:10px 10px;
+    padding: 10px 10px;
     display: block;
     text-align: center;
     margin: 20px 50px;
@@ -206,7 +206,7 @@ nav::after{
 }
 .third-section img{
     width: 38%;
-    padding: 50px 0px 0px 55%;
+    padding: 75px 0px 0px 55%;
 }
 .third-section a{
     color: orange;
@@ -301,15 +301,21 @@ nav::after{
     padding-top: 27%;
     color: white;
 }
+.game-mechanics{
+    text-align: center;
+    font-family: 'Koulen', cursive;
+    font-size: 50px;
+    margin: 10px;
+}
 .mechanics a{
     text-decoration: none;
     color: orange;
 }
 .mechanics dl{
-    margin: 20px;
+    padding-bottom: 55px;
+    font-family: 'Jost', sans-serif;
 }
 .mechanics dt{  
-    font-family: 'Jost', sans-serif;
     font-size: 25px;
     text-align: left;
     padding-left: 100px;
@@ -317,7 +323,6 @@ nav::after{
     font-weight: bolder ;
 }
 .mechanics dd{
-    font-family: 'Jost', sans-serif;
     font-size: 20px;
     text-align: left;
     padding: 0 100px;
@@ -326,7 +331,6 @@ nav::after{
 }
 .mechanics a{
     font-size: 21px;
-    font-family: 'Jost', sans-serif;
     color: orange;
     font-weight: bold;
     text-decoration: none;
@@ -341,4 +345,28 @@ nav::after{
     padding: 7px 10px;
     font-size: 18px;
 }
+.tips{
+    padding: 5px;
+    background: black;
+}
+.tips h1{
+    color: white;
+    text-align: center;
+    padding: 0;
+}
+.tips ol{
+    color: white;
+    padding: 10px 100px;
+    font-size: 20px;
+    line-height: 40px;
+    position: absolute;
+}
+.tips img{
+    padding: 160px 0 15px 72%;
+}
+
+
+
+
+
     
