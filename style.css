@@ -258,7 +258,7 @@ nav::after{
 /*-----------------GUIDE.CSS-----------------*/
 
 .guide{
-    background: url(background/black.jpg);
+    background: url(homepix/black.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
