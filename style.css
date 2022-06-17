@@ -332,7 +332,7 @@ nav::after{
 /*-----------ITEMS PAGE------------*/
 
 .item{
-    background: url(itemspix/bluebg.jpg);
+    background: url(allitems/bluebg.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
