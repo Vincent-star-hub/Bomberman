@@ -42,21 +42,6 @@ nav::after{
     background: orange;
     color: black;
 }
-.menu li:hover .dropdown{
-    display: block;
-}
-.dropdown{
-    position: absolute;
-    background: black;
-    display: none;
-    top: 65px;
-}
-.dropdown li{
-    display: block;
-    list-style: none;
-    font-size: 15px;
-    text-align: justify;
-}
 .logo{
     text-decoration: none;
     color: #ffff;
