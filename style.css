@@ -30,7 +30,6 @@ header{
    font-size: 35px;
    letter-spacing: 1px;
    font-weight: 700;
-   font-family: 'Trade Winds', cursive;
 }
 span{
    color: var(--main-color);
@@ -50,6 +49,14 @@ span{
 }
 .navlist a.active{
    color: var(--main-color);
+}
+#menu-icon{
+   color: var(--text-color);
+   cursor: pointer;
+   font-size: 35px;
+   z-index: 10001;
+   margin-left: 25px;
+   display: none;
 }
 .banner-text{
     position: absolute;
