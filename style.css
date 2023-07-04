@@ -53,7 +53,7 @@ nav::after{
 }
 .banner-text{
     position: absolute;
-    top: 65%;
+    top: 68%;
     left: 50%;
     text-align: center;
     transform: translate(-50%,-50%);
