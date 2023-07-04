@@ -11,45 +11,45 @@ body{
     height: 100vh;
     width: 100%;
 }
-nav{
-    background: #000;
-}
-nav::after{
-    content: '';
-    clear: both;
-    display: block;
-}
-.menu{
-    margin-right: 80px;
-    float: right;
-}
-.menu li{
-    display: inline-block;
-    list-style: none;
-    line-height: 20px;
-    font-size: 15px;
-    left: -20px;
-    position: relative;
-}
-.menu li a{
-    display: inline-block;
-    color: white;
-    padding: 20px;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-.menu li a:hover{
-    background: orange;
-    color: black;
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .45s ease;
+    background: transparent;
+    padding: 22px 15%;
+    border-bottom: 1px solid transparent;
 }
 .logo{
-    text-decoration: none;
-    color: #ffff;
-    font-size: 30px;
-    font-family: 'Trade Winds', cursive;
-    padding: 22px 100px;
-    width: 20%;
-    float: left;
+   color: var(--text-color);
+   font-size: 35px;
+   letter-spacing: 1px;
+   font-weight: 700;
+   font-family: 'Trade Winds', cursive;
+}
+span{
+   color: var(--main-color);
+}
+.navlist{
+   display: flex;
+}
+.navlist a{
+   font-size: 17px;
+   margin: 0 25px;
+   transition: all .45s ease;
+   color:var(--text-color);
+   font-weight: 500;
+}
+.navlist a:hover{
+   color: var(--main-color);
+}
+.navlist a.active{
+   color: var(--main-color);
 }
 .banner-text{
     position: absolute;
